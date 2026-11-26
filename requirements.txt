@@ -1,0 +1,3 @@
+# Supplied by Debian packages: python3-pil, python3-evdev.
+# Native modem source is built separately with build_engine.sh.
+# Linux runtime uses the system ALSA USB-audio and cp210x/serial drivers.

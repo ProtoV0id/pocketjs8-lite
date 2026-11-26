@@ -1,0 +1,34 @@
+test_bad_packing_args (test_native_mock.MockModemTests.test_bad_packing_args) ... ok
+test_generates_pcm_with_mock_dsp (test_native_mock.MockModemTests.test_generates_pcm_with_mock_dsp) ... ok
+test_packing (test_native_mock.MockModemTests.test_packing) ... ok
+test_receiver_ready_event (test_native_mock.MockModemTests.test_receiver_ready_event) ... ok
+test_refuses_bad_frame_index (test_native_mock.MockModemTests.test_refuses_bad_frame_index) ... ok
+test_version (test_native_mock.MockModemTests.test_version) ... ok
+test_audio_commands_are_whitelisted (test_radio.RadioTest.test_audio_commands_are_whitelisted) ... ok
+test_audio_mismatch_never_transmits (test_radio.RadioTest.test_audio_mismatch_never_transmits) ... ok
+test_audio_parser (test_radio.RadioTest.test_audio_parser) ... ok
+test_config_roundtrip_restrict_permissions (test_radio.RadioTest.test_config_roundtrip_restrict_permissions) ... ok
+test_defaults_receive_only (test_radio.RadioTest.test_defaults_receive_only) ... ok
+test_dekey_error_closes_fd (test_radio.RadioTest.test_dekey_error_closes_fd) ... ok
+test_no_native_no_rx (test_radio.RadioTest.test_no_native_no_rx) ... ok
+test_preview_short_text (test_radio.RadioTest.test_preview_short_text) ... ok
+test_refuses_extra_frames (test_radio.RadioTest.test_refuses_extra_frames) ... ok
+test_refuses_invalid_callsign (test_radio.RadioTest.test_refuses_invalid_callsign) ... ok
+test_refuses_invalid_grid (test_radio.RadioTest.test_refuses_invalid_grid) ... ok
+test_refuses_long_draft (test_radio.RadioTest.test_refuses_long_draft) ... ok
+test_rx_log_retained (test_radio.RadioTest.test_rx_log_retained) ... ok
+test_tx_lock_consumed_on_submit (test_radio.RadioTest.test_tx_lock_consumed_on_submit) ... ok
+test_tx_requires_unlock_and_valid_devices (test_radio.RadioTest.test_tx_requires_unlock_and_valid_devices) ... ok
+test_default_tx_locked (test_ui.UITest.test_default_tx_locked) ... ok
+test_full_two_step_confirmation (test_ui.UITest.test_full_two_step_confirmation) ... ok
+test_receives_activity (test_ui.UITest.test_receives_activity) ... ok
+test_review_does_not_transmit (test_ui.UITest.test_review_does_not_transmit) ... ok
+test_screen_resolution (test_ui.UITest.test_screen_resolution) ... ok
+test_text_editor_cancel (test_ui.UITest.test_text_editor_cancel) ... ok
+test_unlocked_menu_defaults_cancel (test_ui.UITest.test_unlocked_menu_defaults_cancel) ... ok
+test_unrelated_view_cannot_reuse_old_accept (test_ui.UITest.test_unrelated_view_cannot_reuse_old_accept) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 2.083s
+
+OK

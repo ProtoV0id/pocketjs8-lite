@@ -1,0 +1,24 @@
+name: Host simulation tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  python-and-native-mock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install host test requirements
+        run: python -m pip install Pillow
+      - name: Run software tests (not RF validation)
+        run: python -m unittest discover -s tests -v
+      - name: Verify installer hash
+        run: sha256sum -c <(grep 'dist/cardputer-js8-lite_0.3.0_all.deb' SHA256SUMS.txt)
+        shell: bash

@@ -1,0 +1,22 @@
+# Python/IDE/runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.vscode/
+.idea/
+*.egg-info/
+# Private local runtime data
+*.log
+*.bak
+.env
+.env.*
+config.json
+# Generated native objects and build directories
+build/
+*.o
+*.a
+*.so
+# Keep the shipped, reviewed Debian installer in dist/
+!dist/
+!dist/cardputer-js8-lite_0.3.0_all.deb
